@@ -5,6 +5,29 @@
      background-color: rgba(29, 29, 29, 0.5);
   }
 
+*{margin:0;padding:0;}
+.wrap{width:100%;}
+.gradient-text{
+  font-family:"Abril Fatface", sans-serif;
+  background: linear-gradient(to right, crimson,pink,springgreen);
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  text-align:center;
+  transition: color .2s ease-in-out;
+  text-transform:uppercase;
+  font-weight:900;
+}
+.gradient-text:hover{
+  color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
   .text1 {
     color: white;
     font-family: monospace;
