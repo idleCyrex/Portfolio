@@ -221,10 +221,9 @@
   }
   
    .sticky {
-    position: fixed;
-    width: 94.6%;
+    width: 0%;
   }
     .padding25 {
-    padding-top:80%
+    padding-top:90%
   }
 }
