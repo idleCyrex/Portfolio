@@ -27,6 +27,13 @@
     text-align: center;
   }
 
+   .text22 {
+    color: white;
+    font-family: monospace; 
+    font-size: 100px; 
+    margin: 10px; 
+    text-align: center;
+  }
   .text3 {
     color: white; 
     font-family: monospace; 
@@ -205,5 +212,11 @@
     
 
 @media only screen and (min-width: 788px) {
-
+   .text22 {
+    color: white;
+    font-family: monospace; 
+    font-size: 50px; 
+    margin: 10px; 
+    text-align: center;
+  }
 }
