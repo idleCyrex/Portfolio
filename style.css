@@ -5,28 +5,42 @@
      background-color: rgba(29, 29, 29, 0.5);
   }
 
-*{margin:0;padding:0;}
-.wrap{width:100%;}
-.gradient-text{
-  font-family:"Abril Fatface", sans-serif;
-  background: linear-gradient(to right, crimson,pink,springgreen);
-  animation: rainbow 2s ease-in-out infinite;
-  background-clip: text;
-  -webkit-background-clip:text;
-  color:rgba(0,0,0,1);
-  display:block;
-  text-align:center;
-  transition: color .2s ease-in-out;
-  text-transform:uppercase;
-  font-weight:900;
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.gradient-text:hover{
-  color:rgba(0,0,0,0);
+
+.gradient-text {
+  position: relative;
+  text-align: center;
+  padding: 40px 0;
+
+  font-size: calc(6em + 5vw);
+  white-space: nowrap;
+
+  // background: linear-gradient( 92deg, #95d7e3, #eb76ff );
+  background: -webkit-linear-gradient( 92deg, #95d7e3, #eb76ff );
+  background-size:600vw 600vw;
+  
+  // make sure to put these after the background property
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textAnimate 5s linear infinite alternate;
 }
-@keyframes rainbow { 
-  0%{background-position:left}
-  50%{background-position:right}
-  100%{background-position:left}
+
+@keyframes textAnimate {
+  from {
+    filter: hue-rotate(0deg);
+    background-position-x: 0%;
+    
+  }
+  to {
+    filter: hue-rotate(360deg);
+    background-position-x: 600vw;
+    
+  }
 }
   .text1 {
     color: white;
