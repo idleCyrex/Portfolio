@@ -251,4 +251,8 @@
         width: 80%;
         border-radius: 25px;
       }
+  
+    .marginb{
+    margin-bottom: 50%;
+  }
 }
