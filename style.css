@@ -224,4 +224,7 @@
     position: fixed;
     width: 94.6%;
   }
+    .padding25 {
+    padding-top:80%
+  }
 }
