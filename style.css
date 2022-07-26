@@ -5,41 +5,31 @@
      background-color: rgba(29, 29, 29, 0.5);
   }
 
-.wrap{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-
-.gradient-text {
-  position: relative;
-  text-align: center;
-  padding: 40px 0;
-
-  font-size: calc(6em + 5vw);
-  white-space: nowrap;
-
-  // background: linear-gradient( 92deg, #95d7e3, #eb76ff );
-  background: -webkit-linear-gradient( 92deg, #95d7e3, #eb76ff );
-  background-size:600vw 600vw;
-  
-  // make sure to put these after the background property
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  /* background: #000; */
+}
+.gradient-text{
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+  background-size: 400%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textAnimate 5s linear infinite alternate;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
 }
-
-@keyframes textAnimate {
-  from {
-    filter: hue-rotate(0deg);
-    background-position-x: 0%;
-    
-  }
-  to {
-    filter: hue-rotate(360deg);
-    background-position-x: 600vw;
-    
+@keyframes animate {
+  to{
+    background-position: 400%;
   }
 }
   .text1 {
