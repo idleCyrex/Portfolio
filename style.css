@@ -265,4 +265,11 @@
     .marginb{
     margin-bottom: 25%;
   }
+    .text5 {
+    color: white;
+    font-family: monospace; 
+    font-size: 45px;
+    margin: 10px; 
+    text-align: center;
+  }
 }
