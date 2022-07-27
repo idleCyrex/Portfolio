@@ -88,7 +88,9 @@
   .marginb{
     margin-bottom: 10%;
   }
-
+  .marginbb{
+    margin-bottom: 20%;
+  }
   body {
     background-color: rgb(59, 59, 59);
     font-family: monospace;
@@ -264,6 +266,10 @@
   }
     .marginb{
     margin-bottom: 25%;
+  }
+  
+    .marginbb{
+    margin-bottom: 50%;
   }
     .text5 {
     color: white;
