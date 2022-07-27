@@ -259,7 +259,9 @@
         width: 80%;
         border-radius: 25px;
       }
-  
+    .padding12 {
+    padding-top:40%
+  }
     .marginb{
     margin-bottom: 25%;
   }
