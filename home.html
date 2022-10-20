@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/javascript/script.js">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+      <div class="header topnav gradient-text" id="myHeader">
+        <b class="text1 "> Portfolio </b> <br>
+      </div>
+      <div id="blur"> 
+      <div class="content" >
+        <div class="padding12">
+            <p><b class="text2 gradient-text" >idle</b></p>
+                <div class="marginstuff">
+                    <p><b class="text3" >Code enjoyer.</b></p>
+                </div>
+               <a href="#projects"><button class="btn-hover color-7" >Projects</button></a>
+        </div> 
+
+        <div>
+                <div class="padding25"  >   
+                    <span id="projects"></span>
+                    <p><b class="text22" >Projects</b></p>
+                    <div class="marginstuff2 text4">
+                        <p><b class="text3" >Projects that I've made.</b></p>
+                    </div>
+                    <div class="centerdiv " >
+                        <div class="card" >
+                            <div class="container">
+                                <h2><b>DeskBot</b></h2> 
+                                <p>A moderation discord bot</p> 
+                                <a href="https://top.gg/bot/895309909430779904" target="_blank"><button class="btn-hover color-7">Visit</button></a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div> <br> 
+                <div class="centerdiv marginb" >
+                    <div class="card" >
+                        <div class="container " >
+                            <h2><b>DeskBot Music</b></h2> 
+                            <p>A music discord bot</p> 
+                            <button class="btn-hover color-7">Coming soon!</button>
+                        </div>
+                    </div> 
+                </div>
+            </div> <hr>
+
+            <footer>            
+                <div class="bg-light py-4">
+                  <p class="text-muted mb-0 py-2">©2022 All rights reserved.</p>
+                </div>
+            </footer>
+
+        </div>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+
+    </div>
+    <div style="text-align: center;">
+        <div id="cookieNotice" class="light display-right centerc" style="display: none;">
+                <div class="rcookie" >
+                <div id="closeIcon" style="display: none;">
+                </div>
+                <div class="title-wrap">
+                    <h4>Cookie Consent</h4>
+                </div>
+                <div class="content-wrap">
+                    <div class="msg-wrap">
+                        <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style="color:#115cfa;" href="Assets/cookie/privacy-policy.html">Privacy Policy</a></p>
+                        <div class="btn-wrap">
+                            <button class="btn-primary" onclick="acceptCookieConsent();" id="btnid">Accept</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/javascript/cookies.js"></script>
+</div>
+
+
+
+
+</body>
+</html>
