@@ -297,6 +297,11 @@
    
 
 @media only screen and (max-width: 600px){
+    
+     .padding0 {
+  padding-top:20%;
+  padding-bottom: 40%;
+}
   .text22 {
    color: rgb(0, 0, 0);
    font-family: monospace; 
