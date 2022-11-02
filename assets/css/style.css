@@ -269,7 +269,7 @@
    
 
    .btn-hover1:hover {
-    color: white;
+        color: black;
        background-position: 100% 0;
        moz-transition: all .4s ease-in-out;
        -o-transition: all .4s ease-in-out;
