@@ -309,7 +309,7 @@
    }
    .btn-hover1.color-7 {
        background-image: linear-gradient(to right, #ffffff, #ffffff, #000000, #000000);
-       box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+      border: 2px solid rgb(255, 255, 0);
    }
    .btn-hover.color-8 {
        background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
