@@ -247,6 +247,40 @@
    }
 
 
+   
+   .btn-hover1 {
+       width: 200px;
+       font-size: 16px;
+       font-weight: 600;
+       color: #fff;
+       cursor: pointer;
+       margin: 20px;
+       height: 55px;
+       text-align:center;
+       border: none;
+       background-size: 300% 100%;
+       border-radius: 50px;
+       moz-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+       -webkit-transition: all .4s ease-in-out;
+       transition: all .4s ease-in-out;
+   }
+   
+   
+
+   .btn-hover1:hover {
+    color: white;
+       background-position: 100% 0;
+       moz-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+       -webkit-transition: all .4s ease-in-out;
+       transition: all .4s ease-in-out;
+       
+   }
+   
+   .btn-hover1:focus {
+       outline: none;
+   }
 
    
    .btn-hover.color-1 {
@@ -273,7 +307,7 @@
        background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
        box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
    }
-   .btn-hover.color-7 {
+   .btn-hover1.color-7 {
        background-image: linear-gradient(to right, #ffffff, #ffffff, #000000, #000000);
        box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
    }
