@@ -247,8 +247,7 @@
    }
 
 
-   
-   .btn-hover1 {
+   .btn-hover2 {
        width: 200px;
        font-size: 16px;
        font-weight: 600;
@@ -268,8 +267,8 @@
    
    
 
-   .btn-hover1:hover {
-        color: black;
+   .btn-hover2:hover {
+    color: black;
        background-position: 100% 0;
        moz-transition: all .4s ease-in-out;
        -o-transition: all .4s ease-in-out;
@@ -278,14 +277,22 @@
        
    }
    
-   .btn-hover1:focus {
+   .btn-hover2:focus {
        outline: none;
    }
+
+
 
    
    .btn-hover.color-1 {
        background-image: linear-gradient(to right, #000000, #000000, #ffffff, #ffffff);
        border: 2px solid rgb(255, 255, 255);
+   }
+
+   
+   .btn-hover2.color-1 {
+       background-image: linear-gradient(to right, #000000, #000000, #ffffff, #ffffff);
+       border: 2px solid rgb(0, 0, 0);
    }
    .btn-hover.color-2 {
        background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
