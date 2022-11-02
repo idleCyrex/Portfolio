@@ -274,7 +274,7 @@
        box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
    }
    .btn-hover.color-7 {
-       background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+       background-image: linear-gradient(to right, #ffffff, #ffffff, #000000, #000000);
        box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
    }
    .btn-hover.color-8 {
