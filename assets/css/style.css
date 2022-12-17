@@ -5,7 +5,9 @@
     
  }
 
- 
+ body{
+       font-weight: bold;
+}
  #particles-js {
     position: absolute;
 
