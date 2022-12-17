@@ -95,7 +95,27 @@
  .dashboard {
   display: flex;
 }
+.centerimg{
+  margin: auto;
+  display: block;
+  width: 15%;
+   border-radius: 20px; 
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.372);
+   transition: 0.3s;
+}
 
+.underimg{
+  padding-top: 50px;
+}
+.underds{
+  padding-top: 20px;
+}
+
+.centerimg:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255, 0.372);
+  transform: scale(1.1);
+
+}
 svg {
   width: 114px;
   height: 114px;
@@ -171,6 +191,23 @@ svg {
    margin: 10px;
    text-align: center;
  }
+
+ .textsmall {
+  color: white;
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  text-align: center;
+}
+
+.textb {
+  color: white;
+  font-size: 43px;
+  padding-bottom: 30px;
+  color: white;
+  padding-top: 10%; 
+}
+
 
  .text44 {
   color: white;
@@ -259,7 +296,13 @@ svg {
   justify-content: center;
   align-items: center;
 }
+.marigan{
+  display: flex; padding:50px; gap: 50px; padding-top: 10%;
+}
 
+.marigan2{
+  padding-bottom: 17%;
+}
  #rcorners {
    border-radius: 25px;
    background: #555;
@@ -355,14 +398,13 @@ svg {
       color: black;
       box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
       transition: 0.3s;
-      width: 30%;
-      padding: 30px;
+      width: 50%;
       border-radius: 25px;
     }
     .contact {
-      background-color: rgb(0, 0, 0);
-      color: black;
-      box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
       transition: 0.3s;
       width: 30%;
       padding: 30px;
@@ -548,14 +590,42 @@ svg {
     border-radius: 25px;
   }
   .contact {
-    background-color: rgb(0, 0, 0);
-    color: black;
-    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
     transition: 0.3s;
     width: 125%;
     border-radius: 25px;
   }
-
+  .textsmall {
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: 13px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .textb {
+    color: white;
+    font-size: 43px;
+    padding-bottom: 30px;
+    color: white;
+    padding-top: 10%; 
+  }
+  .centerimg{
+    margin: auto;
+    display: block;
+    width: 30%;
+     border-radius: 20px; 
+     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.372);
+     transition: 0.3s;
+  }
+  .marigan{
+    display: flex; padding:50px; gap: 50px; padding-top: 50%;
+  }
+  .marigan2{
+    padding-bottom: 50%;
+  }
 .sticky {
    position: fixed;
    width: 96%;
