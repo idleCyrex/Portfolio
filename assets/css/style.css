@@ -5,9 +5,7 @@
     
  }
 
- body{
-       font-weight: bold;
-}
+ 
  #particles-js {
     position: absolute;
 
@@ -37,9 +35,15 @@
    background-position: 400%;
  }
 }
+
+.fonta{
+  font-family: 'Sora', sans-serif;
+  font-weight: bolder;
+}
  .text1 {
    color: white;
-   font-family: monospace;
+   font-family: 'Sora', sans-serif;
+
    font-size: 30px;
    margin: 10px;
  }
@@ -65,22 +69,25 @@
 
  .text5 {
    color: white;
-   font-family: monospace; 
+   font-family: 'Sora', sans-serif;
+
    margin: 10px; 
    text-align: center;
  }
 
   .text22 {
    color: rgb(0, 0, 0);
-   font-family: monospace; 
+   font-family: 'Sora', sans-serif;
+
    font-size: 100px; 
    margin: 10px; 
    text-align: center;
  }
  .text3 {
    color: white; 
-   font-family: monospace; 
-   font-size: 12px; 
+   font-family: 'Sora', sans-serif;
+
+   font-size: 14px; 
    margin: 10px; 
    text-align: center;
  }
@@ -158,7 +165,8 @@ svg {
 
  .text4 {
    color: white;
-   font-family: monospace;
+   font-family: 'Sora', sans-serif;
+
    font-size: 12px;
    margin: 10px;
    text-align: center;
@@ -166,7 +174,8 @@ svg {
 
  .text44 {
   color: white;
-  font-family: monospace;
+  font-family: 'Sora', sans-serif;
+
   font-size: 20px;
   margin: 10px;
   padding-top: 25px;
@@ -190,7 +199,11 @@ svg {
  }
  body {
  background-color: rgb(0, 0, 0); 
+
  }
+ @import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
+ 
  
  #blur {
   filter: blur(8px);
@@ -342,7 +355,8 @@ svg {
       color: black;
       box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
       transition: 0.3s;
-      width: 40%;
+      width: 30%;
+      padding: 30px;
       border-radius: 25px;
     }
     .contact {
@@ -350,7 +364,8 @@ svg {
       color: black;
       box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
       transition: 0.3s;
-      width: 40%;
+      width: 30%;
+      padding: 30px;
       border-radius: 25px;
     }
      .card:hover {
@@ -507,7 +522,8 @@ svg {
 }
   .text22 {
    color: rgb(0, 0, 0);
-   font-family: monospace; 
+   font-family: 'Sora', sans-serif;
+
    font-size: 50px; 
    margin: 10px; 
    text-align: center;
@@ -565,7 +581,8 @@ svg {
  }
    .text5 {
    color: white;
-   font-family: monospace; 
+   font-family: 'Sora', sans-serif;
+
    font-size: 12px;
    margin: 10px; 
    text-align: center;
@@ -580,7 +597,7 @@ svg {
 svg {
   width: 114px;
   height: 114px;
-  margin: 3px;
+  margin: 5px;
 }
 }
 
