@@ -716,6 +716,7 @@ svg {
 
     .headerimg{
       opacity: 0%;
+        width: 0%;
 }
 .text12 {
   transition: 0.4s;
