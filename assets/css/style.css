@@ -714,8 +714,10 @@ svg {
   margin: 5px;
 }
 
+    .headerimg{
+      opacity: 0%;
+}
 .text12 {
-  opacity: 0%;
   transition: 0.4s;
 
 }
