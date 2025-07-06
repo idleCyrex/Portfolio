@@ -26,19 +26,33 @@ To get a local copy up and running:
 **Frontend**
 
 1. Clone the repo:
- ```git clone https://github.com/idleCyrex/Portfolio.git```
-2. Navigate to the frontend directory:
- ```cd Portfolio/frontend```
-3. Install frontend dependencies:
- ```npm install```
-4. Start the development server:
- ```npm start```
+ ```bash
+git clone https://github.com/idleCyrex/Portfolio.git
+```
+3. Navigate to the frontend directory:
+ ```bash
+cd Portfolio/frontend
+```
+5. Install frontend dependencies:
+ ```bash
+npm install
+```
+7. Start the development server:
+ ```bash
+npm start
+```
 
 **Backend**
 
 1. Navigate to the backend directory:
- ```cd ../backend```
-2. Install backend dependencies:
- ```npm install```
+ ```bash
+cd ../backend
+```
+3. Install backend dependencies:
+ ```bash
+npm install
+```
 4. Start the backend server:
- ```npm start```
+ ```bash
+ npm start
+```
