@@ -1,37 +1,4 @@
 # Portfolio
-
-Welcome to my Portfolio! This repository showcases my personal and professional projects, built primarily with React.
-
-## About
-
-This project is my personal portfolio website, featuring information about me, my skills, and examples of my work. It is built using modern frontend technologies.
-
-## Features
-
-- Responsive design
-- Project showcase
-- Contact form
-
-## Demo
-
-[Website](https://idlee.xyz)
-
-## Getting Started
-
-To get a local copy up and running:
-
-1. Clone the repo:
-   ```git clone https://github.com/idleCyrex/Portfolio.git```
-2. Navigate to the frontend directory:
-   ```cd Portfolio/frontend```
-3. Install dependencies:
-   ```npm install```
-4. Start the development server:
-   ```npm start```
-
-
-
-# Portfolio
 Welcome to my Portfolio! This repository showcases my personal and professional projects, built
 primarily with React and Express.js.
 
