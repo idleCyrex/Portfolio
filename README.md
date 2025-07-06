@@ -22,6 +22,7 @@ layer of professionalism to the sites communication features.
 
 ## Getting Started
 To get a local copy up and running:
+> Frontend
 1. Clone the repo:
  ```git clone https://github.com/idleCyrex/Portfolio.git```
 2. Navigate to the frontend directory:
@@ -30,7 +31,7 @@ To get a local copy up and running:
  ```npm install```
 4. Start the development server:
  ```npm start```
-For the backend (if modifying or running locally):
+> Backend
 1. Navigate to the backend directory:
  ```cd ../backend```
 2. Install backend dependencies:
