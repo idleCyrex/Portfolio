@@ -21,7 +21,7 @@ layer of professionalism to the sites communication features.
  [Visit the website:](https://idlee.xyz)
 
 ## Getting Started
-To get a local copy up and running:
+To get a local copy up and running: 
 **Frontend**
 1. Clone the repo:
  ```git clone https://github.com/idleCyrex/Portfolio.git```
