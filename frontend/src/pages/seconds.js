@@ -22,7 +22,7 @@ const PROJECTS = [
         type: 'SITES',
         img: cheire,
         alt: 'CherieFamily',
-        onClick: () => window.location.href = 'https://www.cheriefamily.com/'
+        onClick: () => window.open('https://github.com/idleCyrex/CherieFamily', '_blank')
     },
     {
         key: 'dentist',
@@ -31,7 +31,7 @@ const PROJECTS = [
         type: 'SITES',
         img: doctor,
         alt: 'Dentist',
-        onClick: () => window.location.href = 'https://dentist.idlee.xyz/'
+        onClick: () => window.open('https://github.com/idleCyrex/DentalClinic', '_blank')
     },
     {
         key: 'portfolio',
@@ -40,7 +40,7 @@ const PROJECTS = [
         type: 'SITES',
         img: portfolio,
         alt: 'Portfolio',
-        onClick: () => window.location.href = 'https://idlee.xyz/'
+        onClick: () => window.open('https://github.com/idleCyrex/Portfolio', '_blank')
     }
 ];
 
