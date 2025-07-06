@@ -29,15 +29,15 @@ To get a local copy up and running:
  ```bash
 git clone https://github.com/idleCyrex/Portfolio.git
 ```
-3. Navigate to the frontend directory:
+2. Navigate to the frontend directory:
  ```bash
 cd Portfolio/frontend
 ```
-5. Install frontend dependencies:
+3. Install frontend dependencies:
  ```bash
 npm install
 ```
-7. Start the development server:
+4. Start the development server:
  ```bash
 npm start
 ```
