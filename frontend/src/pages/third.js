@@ -59,19 +59,16 @@ const Third = () => {
   const age = calculateAge(birthday);
   const lineRef = useRef(null);
 
-  // useInView hook for About section
   const { ref: aboutRef, inView: aboutInView } = useInView({
     triggerOnce: true,
     threshold: 0.1
   });
 
-  // useInView hook for Contact section
   const { ref: contactRef, inView: contactInView } = useInView({
     triggerOnce: true,
     threshold: 0.1
   });
 
-  // Form state for loading and success
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
